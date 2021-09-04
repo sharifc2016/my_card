@@ -37,54 +37,42 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.phone,
-                      color: Colors.teal,
-                      size: 30.0,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                    size: 30.0,
+                  ),
+                  title: Text(
+                    'sharifc2016@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal.shade800,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 25.0,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      '+8801887447062',
-                      style: TextStyle(
-                        color: Colors.teal.shade800,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 25.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: [
-                    Icon(
-                      Icons.email,
-                      color: Colors.teal,
-                      size: 30.0,
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.teal,
+                    size: 30.0,
+                  ),
+                  title: Text(
+                    'sharifc2016@gmail.com',
+                    style: TextStyle(
+                      color: Colors.teal.shade800,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 25.0,
                     ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'sharifc2016@gmail.com',
-                      style: TextStyle(
-                        color: Colors.teal.shade800,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 25.0,
-                      ),
-                    ),
-                  ],
+                  ),
                 ),
               ),
             ],

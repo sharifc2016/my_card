@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               CircleAvatar(
                 radius: 50,
@@ -42,12 +43,12 @@ class MyApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
                   leading: Icon(
-                    Icons.email,
+                    Icons.phone,
                     color: Colors.teal,
                     size: 30.0,
                   ),
                   title: Text(
-                    'sharifc2016@gmail.com',
+                    '+880 1737573157',
                     style: TextStyle(
                       color: Colors.teal.shade800,
                       fontFamily: 'SourceSansPro',
